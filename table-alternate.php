@@ -8,12 +8,12 @@
         <?php
         $x = 1;
         while ($x <= 100) {
-            $x++;
             if ($x % 2 == 0) {
                 echo "<tr> <td></td> <td></td> <td></td> </tr>";
             } else {
                 echo '<tr style="background-color: #ECECEC;"> <td></td> <td></td> <td></td></tr>';
             }
+            $x++;
         }
         ?>
 
