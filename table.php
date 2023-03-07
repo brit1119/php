@@ -9,8 +9,9 @@
 
         while ($x <= 100) {
             echo "<tr> <td> </td> </tr>";
+            $x++;
         }
-        $x++;
+
         ?>
     </table>
 </body>
